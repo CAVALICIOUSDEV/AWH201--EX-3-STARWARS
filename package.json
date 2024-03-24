@@ -1,0 +1,16 @@
+{
+  "name": "awh201--ex-3-starwars",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "bygg": "tailwindcss -i /Users/cavtop/Desktop/Skola/kapitel-3/AWH201--EX-3-STARWARS/src/input.css -o /Users/cavtop/Desktop/Skola/kapitel-3/AWH201--EX-3-STARWARS/public/style.css --watch",
+    "minifiera": "tailwindcss -o style.css --minify"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "tailwindcss": "^3.4.1"
+  }
+}

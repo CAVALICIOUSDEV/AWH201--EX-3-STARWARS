@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    body {
+        @apply bg-black;
+    }
+    #wrapper {
+        @apply container mx-auto px-4 bg-black text-vit text-base/6 flex gap-8 flex-col
+    }
+    h1 {
+        @apply font-bold text-4xl
+    }
+    h2,h3,h4,h5,h6 {
+        @apply font-bold text-2xl
+    }
+}
